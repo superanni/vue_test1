@@ -15,6 +15,7 @@ export default {
     }
   },
   // axios实现跨域
+  //
   created () {
     // eslint-disable-next-line no-undef
     axios.post('api/testSpringBoot').then(function (res) {
